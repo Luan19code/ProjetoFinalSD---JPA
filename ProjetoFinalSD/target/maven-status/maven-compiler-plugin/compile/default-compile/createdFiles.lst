@@ -1,0 +1,7 @@
+br\edu\fafic\sd\WS\LivroWS.class
+br\edu\fafic\sd\model\Autor.class
+br\edu\fafic\sd\WS\AutorWS.class
+org\netbeans\rest\application\config\ApplicationConfig.class
+br\edu\fafic\persistence\JpaPersistence.class
+br\edu\fafic\sd\services\Servicos.class
+br\edu\fafic\sd\model\Livro.class
