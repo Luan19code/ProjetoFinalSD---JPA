@@ -42,7 +42,7 @@ public class LivroWS {
     @GET
     @Path("consuntar/{titulo}")
     public Response buscarTitulo(@PathParam("titulo") String livro) {
-        Livro l = ps.getTitulo(livro);
+        Livro l = ps.Buscar(livro);
         return Response.status(Response.Status.CREATED).entity(l).build();
     }
     

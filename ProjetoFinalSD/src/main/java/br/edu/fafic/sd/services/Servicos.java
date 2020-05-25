@@ -37,7 +37,7 @@ public class Servicos {
         jpa.del(livro);
     }
 
-    public Livro getTitulo(String titulo) {
+    public Livro Buscar(String titulo) {
         Livro livro = null;
         List<Livro> l = jpa.getEm().createQuery("select l from Livro l").getResultList();
 
